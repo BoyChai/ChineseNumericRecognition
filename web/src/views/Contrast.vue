@@ -1,6 +1,8 @@
 <template>
 <div>实时对比</div>
-  <vueVideoPlayer url="http://localhost:8080/hdl/live/test.flv"></vueVideoPlayer>
+  <vueVideoPlayer h="400px" w="700px" url="http://localhost:8080/hdl/live/test.flv"></vueVideoPlayer>
+  <vueVideoPlayer  url="http://localhost:8080/hdl/live/test.flv"></vueVideoPlayer>
+
 
 </template>
 

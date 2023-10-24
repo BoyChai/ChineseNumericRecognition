@@ -7,12 +7,12 @@
     <el-container>
       <el-header class="view-header">手写数字识别大作业</el-header>
       <el-container>
-        <el-aside class="view-aside" width="200px">
+        <el-aside class="view-aside" width="200px" style="height: 666px">
 <!--          导航栏-->
           <el-row class="tac">
             <el-col :span="24">
               <el-menu
-                  default-active="2"
+                  default-active="1"
                   class="el-menu-vertical-demo">
 <!--                  @open="handleOpen"-->
 <!--                  @close="handleClose"-->
@@ -65,13 +65,16 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 .view-header{
-  border: 1px red solid;
+  /*border: 1px red solid;*/
+  border: 2px black solid;
 }
 .view-aside {
-  border: 1px rebeccapurple solid;
+  /*border: 1px rebeccapurple solid;*/
+  border: 2px black solid;
 }
 .view-main {
-  border: 1px royalblue solid;
+  /*border: 1px royalblue solid;*/
+  border: 2px black solid;
 }
 
 </style>
