@@ -1,10 +1,17 @@
 <template>
 <div>实时对比</div>
+  <vueVideoPlayer url="http://localhost:8080/hdl/live/test.flv"></vueVideoPlayer>
+
 </template>
 
 <script>
+import vueVideoPlayer from "@/components/vueVideoPlayer.vue";
+
 export default {
-  name: "Contrast"
+  name: "Contrast",
+  components: {
+    vueVideoPlayer,
+  },
 }
 </script>
 

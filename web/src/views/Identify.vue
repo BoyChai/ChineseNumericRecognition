@@ -1,12 +1,19 @@
 <template>
-  <dev>
+  <div>
     实时识别
-  </dev>
+  </div>
+  <vueVideoPlayer url="http://localhost:8080/hdl/live/test.flv"></vueVideoPlayer>
+
 </template>
 
 <script>
+import vueVideoPlayer from '@/components/vueVideoPlayer.vue'
+
 export default {
-  name: "Identify"
+  name: "Identify",
+  components: {
+    vueVideoPlayer,
+  },
 }
 </script>
 

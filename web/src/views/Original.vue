@@ -1,10 +1,18 @@
 <template>
   <div>页面导航</div>
+  <vueVideoPlayer url="http://localhost:8080/hdl/live/test.flv"></vueVideoPlayer>
+
 </template>
 
 <script>
+import vueVideoPlayer from '@/components/vueVideoPlayer.vue'
+
 export default {
-  name: "Original"
+  name: "Original",
+  components: {
+    vueVideoPlayer,
+  },
+
 }
 </script>
 

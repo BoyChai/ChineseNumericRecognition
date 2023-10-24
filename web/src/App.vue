@@ -5,7 +5,7 @@
 <!--  </nav>-->
   <div class="common-layout">
     <el-container>
-      <el-header class="view-header">Header</el-header>
+      <el-header class="view-header">手写数字识别大作业</el-header>
       <el-container>
         <el-aside class="view-aside" width="200px">
 <!--          导航栏-->
