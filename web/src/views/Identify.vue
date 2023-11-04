@@ -2,7 +2,7 @@
   <div>
     实时识别
   </div>
-  <vueVideoPlayer w="1200px" h="600px" url="http://localhost:8080/hdl/live/test.flv"></vueVideoPlayer>
+  <vueVideoPlayer w="1200px" h="600px" url="http://server.boychai.xyz:8080/hdl/live/test.flv"></vueVideoPlayer>
 
 </template>
 

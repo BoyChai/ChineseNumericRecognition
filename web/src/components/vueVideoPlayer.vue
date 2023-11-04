@@ -1,14 +1,10 @@
 <template>
-<!--  <video-->
-<!--      style=":height: h;:width: w;"-->
-
   <video
       id="videoElement"
       ref="videoElement"
       controls
       muted
   ></video>
-<!--  <button type="button" @click="createFlv">start</button>-->
 </template>
 <script>
 import flvjs from 'flv.js'
@@ -20,7 +16,9 @@ export default  {
   ],
   data() {
     return {
-      flvPlayer: null
+      flvPlayer: null,
+      h: this.h,
+      w: this.w
     }
   },
   methods: {
